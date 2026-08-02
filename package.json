@@ -1,0 +1,23 @@
+{
+  "name": "professional_backend",
+  "version": "1.0.0",
+  "description": " Professional backend",
+  "homepage": "https://github.com/MusaibRasheed/Professional_Backend#readme",
+  "bugs": {
+    "url": "https://github.com/MusaibRasheed/Professional_Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MusaibRasheed/Professional_Backend.git"
+  },
+  "license": "ISC",
+  "author": "Musaib",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
