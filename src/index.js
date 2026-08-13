@@ -2,6 +2,17 @@ import mongoose from 'mongoose';
 import { DB_Name } from './constants.js';
 import express from 'express';
 const App=express();
+
+connectDB()
+.then(() =>{
+    App.listen(process.env.Port || 8000,() =>{
+        console.log("App is listening on port",process.env.Port)
+    })
+})
+.catch((error) =>{
+    console.log("Error in connection", error)
+})
+
 /*
 (async()=>{
     try {
